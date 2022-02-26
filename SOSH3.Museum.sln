@@ -5,11 +5,13 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2708DC72-60D0-4B53-AD09-13AC40E6945C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSH3.Museum.WebApplication", "src\SOSH3.Museum.WebApplication\SOSH3.Museum.WebApplication.csproj", "{3F408EBB-F11D-450A-A90C-D05846B1F660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOSH3.Museum.WebApplication", "src\SOSH3.Museum.WebApplication\SOSH3.Museum.WebApplication.csproj", "{3F408EBB-F11D-450A-A90C-D05846B1F660}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1517CD4F-A799-4254-82C4-F8D797754ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSH3.Museum.WebApplication.Tests", "tests\SOSH3.Museum.WebApplication.Tests\SOSH3.Museum.WebApplication.Tests.csproj", "{693237BB-DE8C-400F-AB51-EC3F0D44540B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOSH3.Museum.WebApplication.Tests", "tests\SOSH3.Museum.WebApplication.Tests\SOSH3.Museum.WebApplication.Tests.csproj", "{693237BB-DE8C-400F-AB51-EC3F0D44540B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSH3.Museum.Database", "src\SOSH3.Museum.Database\SOSH3.Museum.Database.csproj", "{C5974445-333B-4380-8B39-B65AB3B5E895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{693237BB-DE8C-400F-AB51-EC3F0D44540B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{693237BB-DE8C-400F-AB51-EC3F0D44540B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{693237BB-DE8C-400F-AB51-EC3F0D44540B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5974445-333B-4380-8B39-B65AB3B5E895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5974445-333B-4380-8B39-B65AB3B5E895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5974445-333B-4380-8B39-B65AB3B5E895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5974445-333B-4380-8B39-B65AB3B5E895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3F408EBB-F11D-450A-A90C-D05846B1F660} = {2708DC72-60D0-4B53-AD09-13AC40E6945C}
 		{693237BB-DE8C-400F-AB51-EC3F0D44540B} = {1517CD4F-A799-4254-82C4-F8D797754ECB}
+		{C5974445-333B-4380-8B39-B65AB3B5E895} = {2708DC72-60D0-4B53-AD09-13AC40E6945C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {119B6756-2D1A-49B5-A679-FA6F0E25742A}
