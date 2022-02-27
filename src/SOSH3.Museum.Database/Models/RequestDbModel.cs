@@ -10,7 +10,7 @@ namespace SOSH3.Museum.Database.Models
         public long Id { get; set; }
 
         [Column("ip")]
-        public IPAddress Ip { get; set; } = null!;
+        public IPAddress? Ip { get; set; }
 
         [Column("url")]
         public string Url { get; set; } = null!;

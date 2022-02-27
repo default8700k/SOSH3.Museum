@@ -16,7 +16,7 @@ namespace SOSH3.Museum.WebApplication.Middlewares
         {
             var requestParams = new RequestParams
             {
-                Ip = httpContext.Connection.RemoteIpAddress ?? throw new NullReferenceException("remote ip address cannot be null"),
+                Ip = httpContext.Connection.RemoteIpAddress,
                 Url = httpContext.Request.Path,
                 Method = httpContext.Request.Method,
                 UserAgent = httpContext.Request.Headers["User-Agent"],
@@ -30,7 +30,7 @@ namespace SOSH3.Museum.WebApplication.Middlewares
             catch (Exception exception)
             {
                 using var _loggerScope = logger.BeginScope(
-                    new Dictionary<string, object>
+                    new Dictionary<string, object?>
                     {
                         ["Ip"] = requestParams.Ip,
                         ["Url"] = requestParams.Url,

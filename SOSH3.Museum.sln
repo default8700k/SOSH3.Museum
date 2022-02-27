@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOSH3.Museum.WebApplication
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSH3.Museum.Database", "src\SOSH3.Museum.Database\SOSH3.Museum.Database.csproj", "{C5974445-333B-4380-8B39-B65AB3B5E895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSH3.Museum.Database.Tests", "tests\SOSH3.Museum.Database.Tests\SOSH3.Museum.Database.Tests.csproj", "{0285E443-B200-4ED8-AD8D-A09EEB082095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{C5974445-333B-4380-8B39-B65AB3B5E895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5974445-333B-4380-8B39-B65AB3B5E895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5974445-333B-4380-8B39-B65AB3B5E895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0285E443-B200-4ED8-AD8D-A09EEB082095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0285E443-B200-4ED8-AD8D-A09EEB082095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0285E443-B200-4ED8-AD8D-A09EEB082095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0285E443-B200-4ED8-AD8D-A09EEB082095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{3F408EBB-F11D-450A-A90C-D05846B1F660} = {2708DC72-60D0-4B53-AD09-13AC40E6945C}
 		{693237BB-DE8C-400F-AB51-EC3F0D44540B} = {1517CD4F-A799-4254-82C4-F8D797754ECB}
 		{C5974445-333B-4380-8B39-B65AB3B5E895} = {2708DC72-60D0-4B53-AD09-13AC40E6945C}
+		{0285E443-B200-4ED8-AD8D-A09EEB082095} = {1517CD4F-A799-4254-82C4-F8D797754ECB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {119B6756-2D1A-49B5-A679-FA6F0E25742A}

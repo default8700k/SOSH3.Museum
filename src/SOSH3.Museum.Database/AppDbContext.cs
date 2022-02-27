@@ -7,6 +7,10 @@ namespace SOSH3.Museum.Database
     {
         public DbSet<RequestDbModel> Requests { get; set; } = null!;
 
+        public AppDbContext()
+        {
+        }
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
