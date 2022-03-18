@@ -12,3 +12,4 @@ namespace SOSH3.Museum.Database.Tests
         }
     }
 }
+ 
